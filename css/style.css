@@ -21,29 +21,6 @@ header {
     font-size: 44px;
     vertical-align: middle;
 }
-
-@media(max-width: 600px){
-    .company-logo {
-        left: 10%;
-        transform: translate(-10%, -50%);
-    }
-    .company-logo img {
-        height: 100px;
-        width: auto;
-        vertical-align: middle;
-        margin-bottom: 0.1em;
-    }
-    .company-logo span{
-        font-size: 32px;
-        vertical-align: middle;
-    }
-    .navbar-nav{
-        width: 100% !important;
-    }
-    .navbar-nav li{
-        width: 100% !important;
-    }
-}
 .carousel-item {
     height: 200px;
     background-repeat: no-repeat;
@@ -100,4 +77,50 @@ nav{
 }
 .navbar-nav .active{
     background-color: #4b4c4d;
+}
+
+@media(max-width: 600px){
+    .company-logo {
+        left: 10%;
+        transform: translate(-10%, -50%);
+    }
+    .company-logo img {
+        height: 100px;
+        width: auto;
+        vertical-align: middle;
+        margin-bottom: 0.1em;
+    }
+    .company-logo span{
+        font-size: 32px;
+        vertical-align: middle;
+    }
+    .navbar-nav{
+        width: 100% !important;
+    }
+    .navbar-nav li{
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 992px){
+    .company-logo {
+        left: 10%;
+        transform: translate(-10%, -50%);
+    }
+    .company-logo img {
+        height: 100px;
+        width: auto;
+        vertical-align: middle;
+        margin-bottom: 0.1em;
+    }
+    .company-logo span{
+        font-size: 32px;
+        vertical-align: middle;
+    }
+    .navbar-nav{
+        width: 100% !important;
+    }
+    .navbar-nav li{
+        width: 100% !important;
+    }
 }
