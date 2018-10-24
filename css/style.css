@@ -69,7 +69,7 @@ p {
 }
 
 body {
-    background-image: url("/images/bg-img.png");
+    background-image: url("https://raw.githubusercontent.com/AbderrahmeneDZ/ironweb/master/images/bg-img.png");
     font-family: 'Roboto', sans-serif;
 }
 
