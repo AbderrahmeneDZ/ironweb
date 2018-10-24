@@ -37,6 +37,12 @@ header {
         font-size: 32px;
         vertical-align: middle;
     }
+    .navbar-nav{
+        width: 100% !important;
+    }
+    .navbar-nav li{
+        width: 100% !important;
+    }
 }
 .carousel-item {
     height: 200px;
@@ -79,4 +85,19 @@ footer {
 .contact-item i{
     vertical-align: middle;
     margin-right: 5px;
+}
+nav{
+    padding: 0 !important;
+}
+.navbar-nav li{
+    width: 150px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+.text-primary{
+    color: #1b1b1b !important;
+}
+.navbar-nav .active{
+    background-color: #4b4c4d;
 }
