@@ -67,16 +67,11 @@ nav{
     padding: 0 !important;
 }
 .navbar-nav li{
-    width: 150px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding: 5px 2px 5px 2px;
     text-align: center;
 }
 .text-primary{
     color: #1b1b1b !important;
-}
-.navbar-nav .active{
-    background-color: #4b4c4d;
 }
 
 @media(max-width: 600px){
