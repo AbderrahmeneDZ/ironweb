@@ -1,8 +1,8 @@
 body {
     background-image: url("https://raw.githubusercontent.com/AbderrahmeneDZ/ironweb/master/images/bg-img.png");
     font-family: 'Roboto', sans-serif;
-    padding-left: 3rem!important;
-    padding-right: 3rem!important;
+    padding-left: 5rem!important;
+    padding-right: 5rem!important;
 }
 
 header {
@@ -61,6 +61,7 @@ p {
 footer {
     color: white;
 }
+
 .contact-item i{
     vertical-align: middle;
     margin-right: 5px;
