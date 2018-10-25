@@ -1,3 +1,10 @@
+body {
+    background-image: url("https://raw.githubusercontent.com/AbderrahmeneDZ/ironweb/master/images/bg-img.png");
+    font-family: 'Roboto', sans-serif;
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
+}
+
 header {
     position: relative;
 }
@@ -51,11 +58,6 @@ p {
     text-align: justify;
 }
 
-body {
-    background-image: url("https://raw.githubusercontent.com/AbderrahmeneDZ/ironweb/master/images/bg-img.png");
-    font-family: 'Roboto', sans-serif;
-}
-
 footer {
     color: white;
 }
@@ -98,6 +100,9 @@ nav{
 }
 
 @media(max-width: 992px){
+    body{
+        padding: 0 !important;
+    }
     .company-logo {
         left: 10%;
         transform: translate(-10%, -50%);
