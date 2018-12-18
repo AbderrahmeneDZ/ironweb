@@ -18,6 +18,9 @@ header {
     background-color: rgba(255, 255, 255, 0.712);
     text-shadow: 1px 2px 1px #616161;
 }
+
+
+
 .company-logo img {
     height: 150px;
     width: auto;
@@ -29,21 +32,21 @@ header {
     vertical-align: middle;
 }
 .carousel-item {
-    height: 200px;
+    height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .c-item-1 {
-    background-image: url("http://patisegnoticias.com.br/wp-content/uploads/2017/08/solda-top-2012-780x405.jpg?fbclid=IwAR2GlBGDkNJuF1_1uK65MnpR_Mh83r3wWymQH7X7n8H1MDb-PyUwZCAe-Io")
+    background-image: url("../images/header.jpg")
 }
 
 .c-item-2 {
-    background-image: url("https://pim.dold.com/uploads/attributevalue/119337/stahl_57e248d9b1db0.png?fbclid=IwAR1AEfzLhljRP9E23FKxdpPfuCbD3V89XB3ImB8yo1s44go__gYQFlVCH3Y")
+    background-image: url("../images/header_1.jpg")
 }
 
 .c-item-3 {
-    background-image: url("http://accesetudesquebec.ca/images/products/thumbnail/Depositphotos_18155689_original.jpg?fbclid=IwAR0c3KqU32o9Lfh34nn2iRCCH69z5OJe_pbf9H8Gt4xrCT7aMcAKFo_nH4E")
+    background-image: url("../images/header_2.jpg")
 }
 
 .app-header {
@@ -86,8 +89,8 @@ nav{
 }
 @media(max-width: 600px){
     .company-logo {
-        left: 10%;
-        transform: translate(-10%, -50%);
+        left: 50%;
+        transform: translate(50%, -50%);
     }
     .company-logo img {
         height: 100px;
