@@ -18,8 +18,23 @@ header {
     background-color: rgba(255, 255, 255, 0.712);
     text-shadow: 1px 2px 1px #616161;
 }
+.nav_container .col-md-2 img{
+    height: 120px;
+    width: auto;
+}
+.icon-navbar{
+    height: 50px;
+    width: auto;
+}
+.header-info *{
+    display: inline-block;
+    vertical-align: middle;
+}
 
-
+.header-info{
+    width: auto!important;
+    /* transform: translate(25%, 0%); */
+}
 
 .company-logo img {
     height: 150px;
