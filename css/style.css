@@ -55,8 +55,11 @@ header {
     background-image: url("../images/header_1.jpg")
 }
 
-.c-item-3 {
+.c-item-4 {
     background-image: url("../images/header_2.jpg")
+}
+.c-item-3 {
+    background-image: url("../images/team.bmp")
 }
 
 .app-header {
