@@ -1,140 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/styles.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="icon" href="./images/logo.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/logo.png" />
     <title>EAF-TPG</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="app-header shadow">
-        <header>
-            <div class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item c-item-1 active"></div>
-                    <div class="carousel-item c-item-2"></div>
-                    <div class="carousel-item c-item-3"></div>
-                    <div class="carousel-item c-item-4"></div>
-                </div>
-            </div>
+      <header>
+        <div class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item c-item-1 active"></div>
+            <div class="carousel-item c-item-2"></div>
+            <div class="carousel-item c-item-3"></div>
+            <div class="carousel-item c-item-4"></div>
+          </div>
+        </div>
 
-            <!-- <div class="company-logo px-5 py-2 rounded">
+        <!-- <div class="company-logo px-5 py-2 rounded">
                 <img src="./images/logo.png" alt="Logo">
             </div> -->
-        </header>
-        <div class="nav_container bg-light">
-            <div class="row">
-                <div class="col-md-2 mt-2 pl-2">
-                    <img class="mx-auto d-block" src="./images/logo.png" alt="Logo">
+      </header>
+      <div class="nav_container bg-light">
+        <div class="row">
+          <div class="col-md-2 mt-2 pl-2">
+            <img class="mx-auto d-block" src="./images/logo.png" alt="Logo" />
+          </div>
+          <div class="col-md-10">
+            <div class="row justify-content-md-center info-nav py-3">
+              <div class="col-md-6 px-5 mb-1">
+                <div class="header-info col-md-offset-5">
+                  <img
+                    class="icon-navbar"
+                    src="./images/map-location.svg"
+                    alt="map-location"
+                  />
+                  <div class="mx-3 text-content text-center">
+                    <span>EAF-TPG ZONE industriel fornaka</span><br />
+                    <span><b>27160 Fornaka, Mostaganem, Algérie</b></span>
+                  </div>
                 </div>
-                <div class="col-md-10">
-                    <div class="row justify-content-md-center info-nav py-3">
-                        <div class="col-md-6 px-5 mb-1">
-                            <div class="header-info col-md-offset-5">
-                                <img class="icon-navbar" src="./images/map-location.svg" alt="map-location">
-                                <div class="mx-3 text-content text-center">
-                                    <span>EAF-TPG ZONE industriel fornaka</span><br>
-                                    <span><b>27160 Fornaka, Mostaganem, Algérie</b></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 px-5">
-                            <div class="header-info col-md-offset-5">
-                                <img class="icon-navbar" src="./images/call.svg" alt="map-location">
-                                <div class="mx-3 text-content text-center">
-                                    <span>Service commercial</span><br>
-                                    <span><b> +213 661 24 68 63</b></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse px-5" id="navbarSupportedContent">
-                            <ul class="navbar-nav mx-auto">
-                                <li class="nav-item mx-3 active">
-                                    <a class="nav-link text-item" href="index.html"><b>Accueil</b><span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item mx-3">
-                                    <a class="nav-link text-item" href="#"><b>Nos produits</b></a>
-                                </li>
-                                <li class="nav-item mx-3">
-                                    <a class="nav-link text-item" href="#"><b>Mot du président</b></a>
-                                </li>
-                                <li class="nav-item mx-3">
-                                    <a class="nav-link text-item" href="#"><b>Contact</b></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+              </div>
+              <div class="col-md-6 px-5">
+                <div class="header-info col-md-offset-5">
+                  <img
+                    class="icon-navbar"
+                    src="./images/call.svg"
+                    alt="map-location"
+                  />
+                  <div class="mx-3 text-content text-center">
+                    <span>Service commercial</span><br />
+                    <span><b> +213 661 24 68 63</b></span>
+                  </div>
                 </div>
-
+              </div>
             </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
+              <div
+                class="collapse navbar-collapse px-5"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item mx-3 active">
+                    <a class="nav-link text-item" href="index.html"
+                      ><b>Accueil</b><span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link text-item" href="#"
+                      ><b>Nos produits</b></a
+                    >
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link text-item" href="wpresident.html"
+                      ><b>Mot du président</b></a
+                    >
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link text-item" href="#"><b>Contact</b></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
+      </div>
     </div>
 
-    <div class="container py-5 px-3 mt-3 rounded">
-        <div class="row">
-            <div class="col-md-7">
-                <div class="img-thumbnail" style="width: 100%"><iframe width="100%" height="500" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=FARNAKA%2C%20MOSTAGHANEM+(EAF-TPG)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><br />
+    <div class="container py-2 px-3 mt-3 rounded">
+      <div class="row img-thumbnail p-3">
+        <h3 class="col-md-12 text-center my-2"><b>Contactez nous</b></h3>
+        <div class="col-md-4">
+          <div class="header-info col-md-offset-5 mb-3">
+            <img
+              class="icon-navbar"
+              src="./images/map-location.svg"
+              alt="map-location"
+            />
+            <div class="mx-3 pt-2">
+              <h5><b>Adresse :</b></h5>
             </div>
-            <div class="col-md-5">
-                
-            </div>
+          </div>
+          <div class="text-center">
+            <span>EAF-TPG ZONE industriel fornaka</span>
+            <br /><span><b>27160 Fornaka, Mostaganem, Algérie</b></span>
+          </div>
         </div>
+        <div class="col-md-4">
+          <div class="header-info col-md-offset-5 mb-3">
+            <img
+              class="icon-navbar"
+              src="./images/email-icon.svg"
+              alt="map-location"
+            />
+            <div class="mx-3 pt-2">
+              <h5><b>Email :</b></h5>
+            </div>
+          </div>
+          <div class="ml-2">
+            <span><b>Direction générale :</b></span>
+            <br /><span class="ml-5">
+              <i class="mr-2 material-icons">alternate_email</i>dag@eaf-tpg.com
+            </span>
+            <br />
+            <span class="ml-5">
+              <i class="mr-2 material-icons">alternate_email</i
+              >contact@eaf-tpg.om </span
+            ><br />
+            <span><b>Direction commerciale :</b></span>
+            <br /><span class="ml-5">
+              <i class="mr-2 material-icons">alternate_email</i
+              >contact@eaf-tpg.om
+            </span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="header-info col-md-offset-5 mb-3">
+            <img
+              class="icon-navbar"
+              src="./images/call.svg"
+              alt="map-location"
+            />
+            <div class="mx-3 pt-2">
+              <h5><b>Téléphone :</b></h5>
+            </div>
+          </div>
+          <div class="md-2">
+            <span class="ml-5">
+              <i class="mr-2 material-icons">phone</i>+213 661 24 68 63
+            </span>
+          </div>
+        </div>
+        <div class="col-md-12 mt-4">
+          <iframe
+            width="100%"
+            height="300"
+            src="https://maps.google.com/maps?width=100%&amp;height=500&amp;hl=en&amp;coord=35.783132,-0.009020&amp;q=27160%20Fornaka%2C%20Mostaganem%2C%20Alg%C3%A9rie+(EAF-TPG%20)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            ><a href="#">EAF-TPG</a></iframe
+          >
+        </div>
+      </div>
     </div>
 
     <div class="footer-dark mt-3">
-        <footer>
-            <div class="container">
-                <div class="row justify-content-md-center">
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>Nos produits</h3>
-                        <ul>
-                            <li class="contact-item mb-1"><i class="material-icons">check</i>Treillis soudé</li>
-                            <li class="contact-item mb-1"><i class="material-icons">check</i>Poutrelles métalliques</li>
-                            <li class="contact-item"><i class="material-icons">check</i>Grillages métalliques</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>Contact</h3>
-                        <ul>
-                            <li class="contact-item mb-1"><i class="material-icons">smartphone</i>+213 661 24 68 63</li>
-                            <li class="contact-item"><i class="material-icons">alternate_email</i>contact@eaf-tpg.com</li>
-                        </ul>
-                    </div>
-                    <!-- <div class="col-md-6 col-sm-12 item text">
+      <footer>
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Nos produits</h3>
+              <ul>
+                <li class="contact-item mb-1">
+                  <i class="material-icons">check</i>Treillis soudé
+                </li>
+                <li class="contact-item mb-1">
+                  <i class="material-icons">check</i>Poutrelles métalliques
+                </li>
+                <li class="contact-item">
+                  <i class="material-icons">check</i>Grillages métalliques
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Contact</h3>
+              <ul>
+                <li class="contact-item mb-1">
+                  <i class="material-icons">smartphone</i>+213 661 24 68 63
+                </li>
+                <li class="contact-item">
+                  <i class="material-icons">alternate_email</i
+                  >contact@eaf-tpg.com
+                </li>
+              </ul>
+            </div>
+            <!-- <div class="col-md-6 col-sm-12 item text">
                             <h3>Entreprise</h3>
                             <p>Praraient uniformes fabriques les par sacrifice orientaux. Me renferment artilleurs ah
                                 eclaireurs et. Prenaient atteindra attelages ni le pu.&nbsp;<br><br></p>
                         </div> -->
-                </div>
-                <p class="copyright">EAF-TPG© 2018</p>
-            </div>
-        </footer>
+          </div>
+          <p class="copyright">EAF-TPG© 2018</p>
+        </div>
+      </footer>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
